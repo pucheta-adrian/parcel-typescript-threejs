@@ -4,7 +4,8 @@
   "description": "Boilerplate Parcel + TypeScript + ThreeJs",
   "scripts": {
     "start": "npm run clean && parcel src/index.html",
-    "build": "npm run clean && parcel build src/index.html --public-url ./"
+    "build": "npm run clean && parcel build src/index.html --public-url ./",
+    "clean": "rimraf ./dist ./.cache"
   },
   "keywords": [
     "Parcel",

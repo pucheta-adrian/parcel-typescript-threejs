@@ -1,3 +1,9 @@
 import AppGame from './AppGame';
 
-window.game = new AppGame();
+let isDevelop:Boolean = true;
+
+const game = new AppGame();
+
+if(isDevelop) {
+  window.game = game;
+}
