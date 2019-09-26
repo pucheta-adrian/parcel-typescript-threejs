@@ -1,0 +1,25 @@
+{
+  "name": "parcel-typescript-threejs",
+  "version": "1.0.0",
+  "description": "Boilerplate Parcel + TypeScript + ThreeJs",
+  "scripts": {
+    "start": "npm run clean && parcel src/index.html",
+    "build": "npm run clean && parcel build src/index.html --public-url ./"
+  },
+  "keywords": [
+    "Parcel",
+    "TypeScript",
+    "ThreeJs",
+    "Three.js"
+  ],
+  "author": "Adrián Pucheta <pucheta.adrian@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "three": "^0.108.0"
+  }
+}
