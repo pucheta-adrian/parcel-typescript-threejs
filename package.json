@@ -16,7 +16,7 @@
   "author": "Adrián Pucheta <pucheta.adrian@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.12.3",
+    "parcel-bundler": "^1.12.5",
     "rimraf": "^3.0.0",
     "typescript": "^3.6.3"
   },
