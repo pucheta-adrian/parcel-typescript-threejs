@@ -1,26 +1,29 @@
 {
   "name": "parcel-typescript-threejs",
   "version": "1.0.0",
-  "description": "Boilerplate Parcel + TypeScript + ThreeJs",
+  "description": "Boilerplate Vite + TypeScript + ThreeJs",
+  "type": "module",
   "scripts": {
-    "start": "npm run clean && parcel index.html",
-    "build": "npm run clean && parcel build index.html --public-url ./",
-    "typecheck": "tsc --noEmit",
-    "clean": "rimraf ./dist ./.parcel-cache"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
-    "Parcel",
+    "Vite",
     "TypeScript",
     "ThreeJs",
     "Three.js"
   ],
   "author": "Adrián Pucheta <pucheta.adrian@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
   "devDependencies": {
     "@types/three": "^0.185.4",
-    "parcel": "^2.16.4",
-    "rimraf": "^6.1.3",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
   },
   "dependencies": {
     "three": "^0.185.1"
