@@ -1,5 +1,5 @@
 # parcel-typescript-threejs
-Example App using Three.js and Typescript bundled with parcel 🚀🔥.
+Example App using Three.js and Typescript bundled with Vite 🚀🔥.
 
 ### Highlights
 - ⚡️  Super fast start
@@ -7,7 +7,7 @@ Example App using Three.js and Typescript bundled with parcel 🚀🔥.
 - 📝  Typescript.
 
 ### Quick start
-**Node version >= 20.0 (recommended 22 LTS) and NPM >= 10**
+**Node version ^20.19 || >= 22.12 (recommended 22 LTS) and NPM >= 10**
 
 ```bash
 # clone the repo.
@@ -28,5 +28,6 @@ go to [http://localhost:1234](http://localhost:1234) in your browser. Done.
 ### npm scripts
 
 * `npm run start` - runs the compiler and a server at the same time in dev mode with HMR (Hot Module Replacement) 🔥.
-* `npm run build` - runs the compiler once and generates a production build.
+* `npm run build` - runs the compiler once and generates a production build in `dist/`.
+* `npm run preview` - serves the production build locally to check it before deploying.
 * `npm run typecheck` - runs the TypeScript type checker without emitting files.
