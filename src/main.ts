@@ -1,9 +1,15 @@
 import AppGame from './AppGame';
 
-let isDevelop:Boolean = true;
+declare global {
+  interface Window {
+    game?: AppGame;
+  }
+}
+
+const isDevelop: boolean = true;
 
 const game = new AppGame();
 
-if(isDevelop) {
+if (isDevelop) {
   window.game = game;
 }
