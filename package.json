@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Boilerplate Parcel + TypeScript + ThreeJs",
   "scripts": {
-    "start": "npm run clean && parcel src/index.html",
-    "build": "npm run clean && parcel build src/index.html --public-url ./",
+    "start": "npm run clean && parcel index.html",
+    "build": "npm run clean && parcel build index.html --public-url ./",
     "typecheck": "tsc --noEmit",
     "clean": "rimraf ./dist ./.parcel-cache"
   },
