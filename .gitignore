@@ -17,10 +17,8 @@
 .settings/
 *.sublime-workspace
 
-# Parcel
-.cache/*
-.parcel-cache
-/lib
+# Vite
+.vite
 
 # IDE - VSCode
 .vscode/*
