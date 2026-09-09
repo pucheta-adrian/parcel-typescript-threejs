@@ -1,5 +1,5 @@
 {
-  "name": "parcel-typescript-threejs",
+  "name": "vite-typescript-threejs",
   "version": "1.0.0",
   "description": "Boilerplate Vite + TypeScript + ThreeJs",
   "type": "module",

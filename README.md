@@ -1,4 +1,4 @@
-# parcel-typescript-threejs
+# vite-typescript-threejs
 Example App using Three.js and Typescript bundled with Vite 🚀🔥.
 
 ### Highlights
@@ -12,10 +12,10 @@ Example App using Three.js and Typescript bundled with Vite 🚀🔥.
 ```bash
 # clone the repo.
 # --depth 1 removes all but one .git commit history (Optional).
-git clone --depth 1 https://github.com/adrianrey05/parcel-typescript-threejs.git
+git clone --depth 1 https://github.com/pucheta-adrian/vite-typescript-threejs.git
 
 # go to the repo
-cd parcel-typescript-threejs
+cd vite-typescript-threejs
 
 # install the dependencies via npm
 npm install
