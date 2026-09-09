@@ -19,6 +19,7 @@
 
 # Parcel
 .cache/*
+.parcel-cache
 /lib
 
 # IDE - VSCode

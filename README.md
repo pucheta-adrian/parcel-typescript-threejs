@@ -7,7 +7,7 @@ Example App using Three.js and Typescript bundled with parcel 🚀🔥.
 - 📝  Typescript.
 
 ### Quick start
-**Node version >= 8.0 (recommended 10.6.0) and NPM >= 5 (recommended 6.1.0)**
+**Node version >= 20.0 (recommended 22 LTS) and NPM >= 10**
 
 ```bash
 # clone the repo.
@@ -29,3 +29,4 @@ go to [http://localhost:1234](http://localhost:1234) in your browser. Done.
 
 * `npm run start` - runs the compiler and a server at the same time in dev mode with HMR (Hot Module Replacement) 🔥.
 * `npm run build` - runs the compiler once and generates a production build.
+* `npm run typecheck` - runs the TypeScript type checker without emitting files.

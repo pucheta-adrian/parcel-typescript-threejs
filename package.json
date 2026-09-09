@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npm run clean && parcel src/index.html",
     "build": "npm run clean && parcel build src/index.html --public-url ./",
-    "clean": "rimraf ./dist ./.cache"
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf ./dist ./.parcel-cache"
   },
   "keywords": [
     "Parcel",
@@ -16,11 +17,12 @@
   "author": "Adrián Pucheta <pucheta.adrian@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "rimraf": "^3.0.0",
-    "typescript": "^3.6.3"
+    "@types/three": "^0.185.4",
+    "parcel": "^2.16.4",
+    "rimraf": "^6.1.3",
+    "typescript": "^7.0.2"
   },
   "dependencies": {
-    "three": "^0.137.0"
+    "three": "^0.185.1"
   }
 }

@@ -3,7 +3,7 @@ import {
   PerspectiveCamera, 
   WebGLRenderer, 
   Mesh,
-  CylinderBufferGeometry,
+  CylinderGeometry,
   MeshBasicMaterial,
   
 } from 'three';
@@ -34,7 +34,7 @@ export default class AppGame {
     this.camera = new PerspectiveCamera(75, this.aspect, 0.1, 1000);
     this.camera.position.z = 50;
 
-    const geometry = new CylinderBufferGeometry(5, 5, 20, 8);
+    const geometry = new CylinderGeometry(5, 5, 20, 8);
     const material = new MeshBasicMaterial({
       color: 0xffff00
     });
